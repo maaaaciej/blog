@@ -10,7 +10,7 @@ export default ({data})=>{
   const post = data.markdownRemark;
   return (
       <Layout>
-        <div>
+        <div style={{width:"80vw"}}>
         <h2 style={{textAlign:"center"}}>{post.frontmatter.title}</h2>
 
             <div dangerouslySetInnerHTML={{__html: post.html}}/>
@@ -26,6 +26,6 @@ query($slug: String!){
         frontmatter{
             title
         }
-    }
+    } 
 }
 `
