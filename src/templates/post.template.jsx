@@ -10,7 +10,7 @@ export default ({data})=>{
   const post = data.markdownRemark;
   return (
       <Layout>
-        <div style={{width:"80vw"}}>
+        <div style={{width:"80vw",margin:"auto"}}>
         <h2 style={{textAlign:"center"}}>{post.frontmatter.title}</h2>
 
             <div dangerouslySetInnerHTML={{__html: post.html}}/>

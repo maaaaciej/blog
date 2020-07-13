@@ -19,7 +19,7 @@ text-align:center;
 export default  ({data}) => (
   <Layout>
     <SEO title="Home" />
-    <div style={{width:"80vw"}}>
+    <div style={{width:"80vw", margin:"auto"}}>
       <h4>{data.allMarkdownRemark.totalCount} posts posted so far!</h4>
 
       {
