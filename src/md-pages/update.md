@@ -1,4 +1,9 @@
-<h2>A small update</h2>
+---
+title: "A small Update"
+date: "2020-07-21"
+---
+
+##A small update
 
 I am currently at my parents cabin, in the Hønefoss-area in Norway. It has been mostly raining here, but I've been able to do some renovations on our boat, and go for a walk or two. 
 
